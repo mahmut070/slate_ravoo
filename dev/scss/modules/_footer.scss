@@ -1,0 +1,47 @@
+footer{
+	margin:0% 0 0 0;
+}
+.footer-wrapper{}
+.footer-bloginfo{
+	text-align:center;
+}
+
+.full-bg-footer{
+	background: #000000;
+}
+
+.footer-logo{
+	width: 50%;
+	margin-top: 22px;
+}
+
+.widgettitle{
+	color: #ffffff;
+	font-size: 18px;
+}
+
+.contact-gegevens{
+	margin-top: 17px;
+}
+
+.lg-blauw{
+	color: #024c8d;
+}
+
+.footer-bloginfo a{
+	color: #f9971a;
+}
+
+.menu-0{
+	color: #000000;
+}
+
+.contact-gegevens a{
+	color: #ffffff;
+}
+
+@media all and (max-width: 600px) {
+	.footer-wrapper{
+		text-align: center;
+	}
+}

@@ -1,0 +1,69 @@
+//css threecolumns
+.threecolumns-wrapper{}
+.column{
+}
+
+.threecolums-thumb{
+	border:2px solid #ffffff;
+}
+
+.column{
+	position: relative;
+}
+
+.column-text{
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+}
+
+.thumb-link{
+	color: #ffffff;
+	font-size: 18px;
+	margin-top: 11px;
+	position: absolute;
+	z-index: 1;
+	text-align: center;
+	width: 100%;
+	left: 6px;
+}
+
+.title-banner{
+	position: relative; 
+	width:100%;
+}
+
+.threecolumns-wrapper-app{
+	background: #ffffff;
+	z-index: 999;
+	position: relative;
+}
+
+@media all and (max-width: 1040px) {
+	.column{
+		margin-top:20px;
+	}
+
+	.threecolums-thumb{
+		width: 100%;
+
+	}
+}
+
+@media all and  (min-width: 500px) and (max-width: 650px) {
+	.column-text{
+		margin-left: 22%;
+	}
+
+	.thumb-link{
+		margin-top: 9px;
+		margin-left: 7px;
+	}
+}
+
+@media all and  (min-width: 600px) and (max-width: 800px) {
+	.thumb-link{
+		margin-top: 12px;
+		margin-left: -4px;
+	}
+}

@@ -1,0 +1,89 @@
+// StyleSheet
+
+//schema clean-------------------------------------------------------------------------------------------------------------------------------------------------
+
+//base---------
+	$base-backgroundColor:#fff;
+	$base-backgroundImage:url("../img/background-site.png");
+	$base-navBack: #F5F5F5;
+	$base-borderColor1: #7A6E6E;
+	$base-shadow: 0px 2px 16px #7A6E6E;
+
+//font---------
+	$font-typografie: Quicksand;
+	$font-titel-color: #7A6E6E;
+	$font-subTitel-color: #fff;
+	$font-paragraafTitel-color: #fff;
+// a ----------
+	$a-normal:#7A6E6E;
+	$a-style:#7A6E6E;
+//eind clean-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+//base -------------------------------------------------------------------------------------------------------------------------------------------------------
+h4{
+	color:$font-titel-color;
+}
+body{
+	 font-family: $font-typografie; 
+}
+.header-boven-contact, .footer-wrapper{
+	//box-shadow: $base-shadow;
+	background:$base-backgroundColor;
+} 
+
+
+.Navigation-listItem{
+  a{
+  	color: #ffffff;
+  }
+}
+.Navigation-list--dropdown{
+	background:$base-navBack;
+}
+
+.Nav-toggle {
+  .Icon.Icon--inline {
+   	fill: #ffffff;
+  }
+}
+.header-onderkant{
+	box-shadow: 0px 2px 16px $base-shadow;
+	border-bottom: 2px solid $base-borderColor1;
+	background:$base-backgroundColor;
+}
+.threecolums-bg{
+	 background-image: $base-backgroundImage ; 
+	 background-position: top;
+	 background-size: 100% 100%;
+     background-repeat: no-repeat;
+}
+.fullwidth-wrapper{
+	background:$base-backgroundColor;
+}
+.button{
+	background:#000000;
+	color:#ffffff;
+}
+.button:hover{
+	background:#494949;
+	color: $base-navBack;
+}
+.footer-wrapper{
+	background: #000000;
+	color: #ffffff;
+}
+
+@media all and (max-width: 1040px) {
+
+	.threecolums-bg{
+		background: #272727;
+	}
+
+} 
+
+// eind base -------------------------------------------------------------------------------------------------------------------------------------------------
+

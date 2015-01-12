@@ -1,0 +1,104 @@
+// *************************************
+//
+// Navigation
+// -> Reusable navigation module
+//
+// *************************************
+
+//midden header
+//------------------------------------------------------------------------------------------------------------- -->
+
+//nav------------------------------------------------------------------------------------------------->
+.header-midden{}
+.header-midden-nav{}
+.Navigation-list{
+  margin:0;
+}
+
+ .sticky {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+.Navigation-list--dropdown{
+}
+.Navigation-listItem{
+  display: block;
+  float: left;
+  padding: 19px 58px 19px 0px;
+  margin:0;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.Navigation-link{
+  margin:0 auto;
+}
+
+.full-bg-menu{
+	background: url(../img/menu-bg.png) center center no-repeat #555555;
+	background-size: 100% 100%;
+}
+
+
+
+// CSS that work on dropdown  of submenu items
+
+.Navigation-listItem--hasDropdown {
+    position: relative;
+    text-decoration: none;
+}
+
+ul.Navigation-list--dropdown {
+    background: rgba(0, 0, 0, 0.8);
+    display: block;
+    height: auto;
+    left: -2px;
+    line-height: 35px;
+    margin-top: 22px;
+    position: absolute;
+    width: 235px;
+    z-index: 9999;
+}
+
+ul.Navigation-list--dropdown li.Navigation-listItem {
+    display: block;
+    padding: 0px 2px;
+    margin: 0px auto;
+    border: 0px none;
+    float: none;
+    text-align: left;
+    text-align: center;
+}
+
+.Navigation-list.is-hidden {
+  display: none;
+}
+
+ul.Navigation-list--dropdown li.Navigation-listItem a {
+    display: block;
+    margin-left: 0% !important;
+}
+
+@media all and (max-width: 1000px) { 
+  ul.Navigation-list--dropdown {
+    background: #000000;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    color: white;
+    display: block;
+    height: auto;
+    line-height: 40px;
+    margin-top: 27px;
+    position: static;
+    width: 100%;
+    z-index: 110;
+  }
+}
+
+// einde nav ----------------------------------------------------------------------------------------->
+
+//------------------------------------------------------------------------------------------------------------- -->
+//einde midden header

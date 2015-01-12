@@ -1,0 +1,97 @@
+//header -->
+//------------------------------------------------------------------------------------------------------------------- -->
+
+//boven header
+//------------------------------------------------------------------------------------------------------------------- -->
+.header-boven{}
+
+.header-boven-contact{}
+.header-boven-contact-wrapper1{
+}
+
+.full-bg-header{
+  background: white;
+}
+
+.header-boven-contact-logo{
+  width: 50%;
+  margin-top: 30px;
+}
+.header-boven-contact-wrapper2{
+  padding:7% 0 0 0;
+  position: relative;
+}
+.nummer-icon{
+  width: 5%;
+  position: absolute;
+  left:0%;
+  top:93%;
+}
+.email-icon{
+
+  width:5%;
+  position: absolute;
+  left:40%;
+  top:93%;
+
+}
+.header-boven-contact-nummer{
+  text-decoration: none;
+  position: absolute;
+  left: 7%;
+
+}
+.header-boven-contact-email{
+  text-decoration: none;
+  position: absolute;
+  left: 47%;
+}
+
+.bel-voor-informatie{
+  position: absolute;
+  top: 18px;
+  right: 0; 
+  font-weight: 700;
+  font-size: 16px;
+}
+
+@media all and (max-width: 1040px) {
+  .bel-voor-informatie{
+    display: none;
+  }
+
+  .slider-inhoud1, .slider-inhoud2{
+    display: none;
+  }
+
+}
+
+
+
+//------------------------------------------------------------------------------------------------------------- -->
+// einde boven header
+
+//midden header
+//------------------------------------------------------------------------------------------------------------- -->
+  // zie scss : _navigation
+//------------------------------------------------------------------------------------------------------------- -->
+//einde midden header
+
+//onderkant header 
+//------------------------------------------------------------------------------------------------------------- -->
+.header-onderkant{
+  padding:0% 0 0 0 ;
+  height: 256px !important;
+}
+//------------------------------------------------------------------------------------------------------------- -->
+//einde onderkant header
+
+@media all and (max-width: 600px) {
+  .header-boven-contact-wrapper1 {
+    text-align: center;
+  }
+
+  .header-onderkant{
+    height:83px !important;
+  }
+}
